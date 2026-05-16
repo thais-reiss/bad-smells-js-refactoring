@@ -16,6 +16,8 @@
 		"sonarjs"
 	],
 	"rules": {
+    // O plugin "sonarjs/recommended" já ativa regras cruciais
+    // como complexidade cognitiva e duplicação.
 		"sonarjs/cognitive-complexity": [
 			"error",
 			15
